@@ -1,0 +1,46 @@
+body{
+    font: 12px Arial, Helvetica;
+
+}
+
+#wrapper{
+    margin: auto;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#header{
+    background: #000000;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+form#search{
+    float: right;
+}
+#nav{
+    background: rgba(0, 0, 0, 0.4);
+    margin: 0;
+
+}
+ul#menu li{
+    margin:0;
+    display: inline-block;
+    position: relative;
+}
+#content-wrap{
+    width: 652px;
+    float: left;
+}
+
+#footer{
+    background: #333333;
+    clear: both;
+}
